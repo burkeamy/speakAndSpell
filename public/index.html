@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/style.css" type="text/css" />
+	<title>Speak and Spell</title>
+</head>
+<body>
+	<h1>Speak and Spell</h1>
+	<p class = "directions">The computer will say a word, spell it out and check your answer. Press Get a new word to start.</p>
+	<p id ="help"></p>
+	<form class = "typeWord">
+		<input id = "text" type = "text" placeholder="type your guess here" onkeypress="pressEnter(event)">
+		<button type = "button" class = "checkWord" value = "submit" onclick="checkWord()">check your answer</button>
+	</form>		
+	<button onclick="getWord()">get a new word</button> 
+	<br/>
+	<button onclick = "repeatWord()">repeat the word</button>
+	<h3 id = "count">Your game count is: 0</h3>
+	<h3 id = "level">You are currently on level 1</h3>
+	<h3 id = "score">Your score is</h3>
+	<h3 id = "wrongGuess">You have 10 wrong guesses left</h3>
+	<h4 id = "highScore">The higest score is 0</h4>
+</body>
+<script src="main.js"></script>
+
+</html>

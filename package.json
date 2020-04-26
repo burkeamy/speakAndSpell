@@ -1,0 +1,24 @@
+{
+  "name": "speakAndSpell",
+  "version": "1.0.0",
+  "description": "Elementary scholl level spelling activity using Express, Node, JavaScript and other tools",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burkeamy/speakAndSpell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burkeamy/speakAndSpell/issues"
+  },
+  "homepage": "https://github.com/burkeamy/speakAndSpell#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "spoken": "^1.1.17"
+  }
+}

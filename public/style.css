@@ -1,0 +1,14 @@
+/*general style for the whole page*/
+body {
+    background-color: blue;
+    color: rgb(240, 240, 132);
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+button {
+    margin: 2px;
+    padding: 2px;
+    box-shadow: red 0 0 1% 1%;
+}
+
